@@ -1,0 +1,192 @@
+
+
+
+.page {
+width: 800px;
+height: 400px;
+background-color: #666666;
+margin: auto;
+margin-top: 180px;
+border: 7px solid #4d4d4d;
+border-radius: 20px;
+color: #f2f2f2;
+      }
+
+h2 {
+  background-color:#4d4d4d;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.passfoto {position: relative;}
+
+.passfoto img{
+  border: 7px solid #4d4d4d;
+  border-radius: 20px;
+  margin-left: -40px;
+  margin-top: -50px;
+  display:block;
+}
+
+.hoverimage {
+  margin-top: -224px;
+  z-index: -1;
+  display:none;
+}
+
+.passfoto:hover .hoverimage{display:block}
+
+.passfoto { float:left;}
+
+.names {
+  margin-top: 30px;
+  margin-left: 20px;
+  float:left;}
+
+.links {
+   margin-left: 480px;
+ }
+
+.cv {
+  float:left;
+  font-weight:bold;
+  margin-top:-38px;
+ background-color:#ff6600;
+  padding-top: 12px;
+  padding-left: 10px;
+  margin-right: 210px;
+  border-top-right-radius: 15px;
+    }
+
+.cv a:hover{
+  color: white;
+}
+
+.cv a { text-decoration:none;
+        color: black;
+        padding-right: 7px;
+      }
+
+.icons {
+  display:flex;
+  justify-content: space-between;
+  float:right;
+  margin-right: 30px;
+  margin-top: -43px;
+   }
+
+.icons a{
+  margin-top: -50px;
+ }
+
+.icons .fa:hover {
+                  color: white;
+                 }
+
+
+.enveloppe {
+  background-color: #ff6600;
+  padding: 8px 8px 3px 8px;
+  margin: 6px 6px;
+  border-top-right-radius: 8px;
+  border-top-left-radius:  8px;
+}
+
+.maps {
+  background-color: #ff6600;
+  margin: 6px 6px;
+  padding: 8px 8px 3px 8px;
+  border-top-right-radius: 8px;
+  border-top-left-radius:  8px;
+ }
+
+.times {
+  background-color: #ff6600;
+  margin: 6px 6px;
+  padding: 8px 8px 3px 8px;
+  border-top-right-radius: 8px;
+  border-top-left-radius:  8px;
+
+ }
+
+.abook {
+  background-color: #ff6600;
+  padding: 8px 8px 3px 8px;
+  margin: 6px 6px;
+  border-top-right-radius: 8px;
+  border-top-left-radius:  8px;
+ }
+
+ .fa { color: black;
+     }
+
+  .times .fa {color:white;}
+
+
+.links2 {
+  margin-left: 500px;
+  padding-top: 50px;
+}
+  .download {
+    float:right;
+    margin-right: -51px;
+    margin-top: -25px;
+    background-color: #ff6600;
+    padding: 18px 7px 20px 7px;
+    border-bottom-right-radius: 20px;
+  }
+
+.download .fa:hover{
+  color: white;
+}
+
+  .socialnetworks
+  {
+display: flex;
+  }
+
+.socialnetworks .fa {
+  margin-top: 30px;
+  color: white;
+}
+
+.socialnetworks .fa:hover { color:#ff6600;}
+
+  .facebook {
+    margin: 10px;
+  }
+
+  .linkedin {margin: 10px;}
+
+  .github {margin: 10px;}
+
+  .twitter {margin: 10px;}
+
+  .section {
+    position:relative;
+margin-top: 60px;
+           }
+
+  .text {
+    background-color: #4d4d4d;
+    position:relative;
+    text-align: justify;
+    width:450px;
+    float:left;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-top: -18px;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px
+   }
+
+.identifications {
+       position:relative;
+       float:left;
+       width:320px;
+       background-color: #4d4d4d;
+       border-top-left-radius: 5px;
+       border-bottom-left-radius: 5px
+                }
